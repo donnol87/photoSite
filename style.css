@@ -1,13 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
 nav{
-    margin: 20px;
+    /* margin: 20px; */
     border-bottom: 2px solid rgba(165, 165, 165, 0.795);
     width:25%;
     font-family: Roboto, sans-serif;
+    margin: calc(10%/6);
+    font-size: 2em;
 }
 img{
     width:30%;
     margin: calc(10%/6);
 }
-.section1{
-
+img:hover {
+    transform: scale(1.1);  
+    transition: .5s;
+}
+.background{
+    background-image: url('https://i.stack.imgur.com/kb0Zm.jpg');
+    background-size: cover;
+    opacity: .75;
 }
