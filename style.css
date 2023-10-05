@@ -1,0 +1,13 @@
+nav{
+    margin: 20px;
+    border-bottom: 2px solid rgba(165, 165, 165, 0.795);
+    width:25%;
+    font-family: Roboto, sans-serif;
+}
+img{
+    width:30%;
+    margin: calc(10%/6);
+}
+.section1{
+
+}
